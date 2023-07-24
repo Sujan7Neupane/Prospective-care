@@ -1,0 +1,213 @@
+/* Utility classes */
+.padding-top-btm {
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.m-top-btm {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.m-top {
+  margin-top: 20px;
+}
+
+/* banner START */
+.banner {
+  background-color: #162a4a;
+  color: white;
+}
+
+.banner img {
+  width: 25px;
+  height: 25px;
+}
+/* banner END */
+
+/* navbar START */
+.navbar img {
+  width: 70px;
+  height: 50px;
+}
+.navbar-toggler {
+  color: transparent;
+}
+
+.navbar ul li a:hover {
+  color: #2a3c8c;
+}
+
+.navbar-items-css ul li a {
+  font-weight: 600;
+}
+/* navbar END */
+
+/* linearGradient for the boxes */
+.liner-first {
+  background: linear-gradient(to bottom right, #5c164c, #8e2074);
+}
+.linear-second {
+  background: linear-gradient(to bottom right, #a23273, #bf3d89);
+}
+.linear-third {
+  background: linear-gradient(to bottom right, #bf3157, #c44e3c);
+}
+
+.linear-fourth {
+  background: linear-gradient(to bottom right, #d48b1c, #e0af23);
+}
+
+.linear-fifth {
+  background: linear-gradient(to bottom right, #789e3e, #97c85d);
+}
+
+.linear-sixth {
+  background: linear-gradient(to bottom right, #375884, #618ba1);
+}
+
+.linear-sev {
+  background: linear-gradient(to bottom right, #80b2bb, #94cdd1);
+}
+
+.linear-eighth {
+  background: linear-gradient(to left, #6f9a96, #7daca7);
+}
+
+/* main section starts*/
+/* .main-section {
+  background-image: url(/Prospective_Care/assets/slide-001.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color: white;
+} */
+
+/* BOOTSTRAP CLASES  OVERRIDE */
+.carousel-item > img {
+  height: 100vh;
+  object-fit: cover;
+  background-position: center;
+}
+
+::marker {
+  content: " ";
+}
+
+.carousel-caption {
+  position: absolute;
+  right: unset;
+  bottom: 1.25rem;
+  left: 15%;
+  color: #ffffff;
+  text-align: left;
+  width: 40%;
+  top: 55%;
+  transform: translateY(-50%);
+
+  z-index: 2;
+}
+
+/* IMPORTANT NOTICE */
+/* for the transparent background for the carousal image */
+.carousel-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color:rgba(97, 28, 144, 0.5);
+  z-index: 1;
+}
+/* IMPORTANT NOTICE */
+/* for the transparent background for the carousal image */
+
+/* BOOTSTRAP CLASES  */
+.text-box {
+  margin: auto 20px;
+}
+/* main section ends*/
+
+/* Welcome section START */
+
+/* .suitcase-img img {
+  width: 50px;
+  height: 50px;
+} */
+/* Welcome section END */
+
+/* Our services section START */
+.our-services {
+  background-color: #eef2f6;
+}
+
+.our-serv-row .box {
+  background-color: #205589;
+}
+.our-serv-row .box img {
+  width: 50px;
+  height: 50px;
+}
+
+.our-serv-row {
+  color: white;
+}
+/* Our services section END */
+
+/* Advice section START */
+.advice-section {
+  background-color: #eef2f6;
+}
+
+#btn-advice {
+  color: white;
+  background-color: #83bef1;
+  padding: 10px;
+  text-decoration: none;
+}
+
+.advice-section #email,
+.advice-section #name,
+.advice-section #message {
+  padding: 10px;
+  background-color: #eef2f6;
+  border: 1px solid black;
+}
+/* Advice section END */
+
+/* Footer START */
+.footer-section {
+  background-color: #162a4a;
+  color: white;
+}
+
+.footer-section img {
+  width: 150px;
+  height: 100px;
+}
+
+.contact-logo-info img {
+  width: 25px;
+  height: 25px;
+}
+
+.follow-us-logo a {
+  width: 30px;
+  height: 30px;
+}
+
+.follow a i {
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+}
+
+hr {
+  background-color: #5182d0;
+  height: 2px;
+  width: 30%;
+  margin-left: 0;
+}
+
+/* Footer ENDS */
